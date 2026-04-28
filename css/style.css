@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: burlywood;
+    background-color: rgb(172, 160, 146);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p, label{
-    color: blue;
+    color: rgb(0, 0, 0);
 }
 
 input{
@@ -63,4 +63,16 @@ margin: 0 auto;
 text-transform: uppercase;
 height: 45px;
 list-style: 45px;
+}
+
+.form-body {
+    padding: 30px;
+}
+
+.form-titulo {
+    margin-bottom: 15px;
+}
+
+.form-body p {
+    margin-bottom: 20px;
 }
