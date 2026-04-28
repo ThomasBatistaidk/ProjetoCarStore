@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CarStore</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
+    <header class="cabecario">
         <h3>Cadastre seu veículo para vender mais rápido</h3>
     </header>
     <div>
@@ -95,9 +96,17 @@
                     <input type="checkbox" name="opcional[]" id="banco-couro" value="banco-couro">
                     <label for="banco-couro">Banco de couro</label>
                 </li>
+                </ul>
             </div>
-             </ul>
+            <div>
+                <p>Fotos do carro</p>
+                <input type="file" name="imagem" id="imagem" multiple accept=" image/png, image/jpg">
+            </div>
+            <input type="submit" value="Enviar">
             </form>
+            <hr>
+            <h2>Carros Cadastrados</h2>
+            <div></div>
         </div>
     </div>
 </body>
