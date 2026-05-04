@@ -105,4 +105,13 @@ margin-bottom: 35px;
     border: 2px solid transparent;
     width: 150px;
     height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.btn-submit:hover{
+    background-color: #dfdfdf;
+    color: #654599;
+    border-color: #333;
 }
